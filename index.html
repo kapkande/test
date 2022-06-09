@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum vitae</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Roboto:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+    <div class="wrapper">
+        <div class="body">
+            <div class="content">
+                <header>
+                    <nav>
+                        <ul>
+                            <li><a href="#Contacts">Contacts</a></li>
+                            <li><a href="#About">About Me</a></li>
+                            <li><a href="#Skills">Skills</a></li>
+                            <li><a href="#Code">Code Example</a></li>
+                            <li><a href="#Experience">Experience</a></li>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Languages">Languages</a></li>
+
+                        </ul>
+                    </nav>
+                </header>
+                <main>
+                    <h1>Vlad Tikhonov</h1>
+                    <div class="box">
+                        <h2 id="Contacts" class="title">Contacts</h2>
+                        <ul class="text">
+                            <li>
+                                <a target="_blank" href="https://yandex.by/maps/157/minsk/?ll=27.561481%2C53.902496&z=12">Location: Minsk, Belarus</a>
+                            </li>
+                            <li>Phone:
+                                <a href="tel:80298396179">+375 29 839-61-79</a></li>
+                            <li>Email:
+                                <a href="mailto:">kap.kande@gmail.com</a></li>
+                            <li>GitHub:
+                                <a target="_blank" href="https://github.com/kapkande">kapkande</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="box">
+                        <h2 id="About" class="title">About Me</h2>
+                        <div class="text">I want to change my job and learn something new. I would like to become a frontend developer. It's difficult, but I love difficulties.
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2 id="Skills" class="title">Skills</h2>
+                        <div class="text">
+                            <ul>
+                                <li>HTML</li>
+                                <li>CSS</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2 id="Code" class="title">Code Example</h2>
+                        <div class="snippet">
+                            <p>extract from the code</p>
+                        <pre>
+&lt;div onclick="clik()" class="menu__burger block-active" id="block-active"&gt
+    &lt;div class="burger_line close">&lt;/div&gt
+    &lt;span class="burger_line close">&lt;/span&gt
+    &lt;div class="burger_line close">&lt;/div&gt
+&lt;/div&gt
+&lt;script&gt
+function clik() {
+    document.getElementById("block-active").classList.toggle("block-active");
+    document.getElementById("block-active").classList.toggle("block-disabled");
+}
+&lt;/script&gt
+                        </pre>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <h2 id="Experience" class="title">Experience</h2>
+                        <div class="text">I don't have one.<a href="https://kapkande.github.io/3005/">Once I made a website for myself</a></div>
+                    </div>
+                    <div class="box">
+                        <h2 id="Education" class="title">Education</h2>
+                        <div class="text">Belarusian State College of Electronics, specialty "Electrical Technician</div>
+                    </div>
+                    <div class="box">
+                        <h2 id="Languages" class="title">Languages</h2>
+                        <div class="text">English A1 (currently receiving A2)</div>
+                    </div>
+                </main>
+            </div>
+            <picture class="image">
+                <source class="image__img" media="(max-width: 886px)" srcset="img/im_for_phone.png">
+                <source class="image__img" media="(min-width: 887px)" srcset="img/im.jpg">
+                <img src="img/im.jpg" alt="Vlad">
+            </picture>
+        </div>
+        <footer>
+            <div class="footer__link">
+                <a target="_blank" href="https://rs.school/js/"><img width="60px" height="30px" src="img/rs_school_js.svg" alt="logо"></a>
+            </div>
+            <div class="footer__link">
+                <a target="_blank" href="https://github.com/kapkande">KapKande</a> 2022</div>
+        </footer>
+    </div>
+</body>
+
+</html>
