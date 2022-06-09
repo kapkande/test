@@ -103,14 +103,15 @@ footer {
     padding: 1% 1% 0.5% 1%;
     background-color: rgb(234, 245, 245);
     border-radius: 10px;
-    align-items: center
+    align-items: center;
 }
 
 .footer__link {
     font-family: 'Roboto', sans-serif;
     font-weight: 700;
 }
-.footer__link a {
+.footer__link img {
     width: 60px;
     height: 30px;
 }
+
